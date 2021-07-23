@@ -29,23 +29,23 @@ h1, h2 {
 #header-image {
     height: 900px;
     width: 100%;
-    background: url(../images/mountain.jpeg) no-repeat center center;
-    /* background-position: center top;
+    background: url(../images/mountain.jpeg);
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     
     /* animates zoom effect on loading image*/
-    /* animation: header-zoom 5s forwards; */
+    animation: header-zoom 2s forwards;
 }
 
 /* Creates the level of zoom for hero image */ 
 
 @keyframes header-zoom {
     from{
-        transform: scale(1);
+        transform: scale(0.95);
     }   
     to{
-        transform: scale(1.1);
+        transform: scale(1);
     }     
 }
 
@@ -87,12 +87,12 @@ h1, h2 {
     border-bottom: 1px solid #00003B;
 }
 
-header {
-    background-color: #8C91A3;
+#nav-bg {
     width: 100%;
     height: 150px;
+    background-color: #C5C8DB;
     opacity: 0.5;
-}  
+}
 
 
 
